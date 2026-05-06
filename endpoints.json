@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "updated_at": "2026-05-06T12:30:00Z",
+  "ttl_seconds": 3600,
+  "endpoints": [
+    {
+      "id": "tertiary",
+      "url": "https://analyticsapis.com",
+      "weight": 100,
+      "use_doh": true
+    }
+  ],
+  "doh_servers": [
+    "https://1.1.1.1/dns-query",
+    "https://8.8.8.8/dns-query",
+    "https://9.9.9.9/dns-query",
+    "https://dns.alidns.com/dns-query",
+    "https://doh.pub/dns-query"
+  ]
+}
